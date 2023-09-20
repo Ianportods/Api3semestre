@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #1D1E20;
+}
+
+.container.center {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Isso garante que o contêiner ocupe a altura inteira da janela */
+}
+
+.container.center p {
+    color: #333333;
+}
+
+.logo {
+    color: white;
+}
+
+#loginh1 {
+    text-align: left;
+    color: #54C5CE;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+
+
+button {
+        padding: 10px; /* Mantenha o mesmo tamanho do botão */
+        background-color: #333333;
+        color: #54C5CE;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 10PX;
+
+}
+
+
+/* Alinhar o texto "Bem-vindo" à esquerda */
+.container.center h1 {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+.input-group input {
+    width: 200px;
+    text-align: left;
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
